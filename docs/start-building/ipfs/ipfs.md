@@ -147,8 +147,7 @@ In order to pin a file to the Filecoin network, use the `?filecoin=true` paramet
 
 ```bash
 
-curl
-"https://ipfs.blockfrost.io/api/v0/ipfs/pin/add/QmUCXMTcvuJpwHF3gABRr69ceQR2uEG2Fsik9CyWh8MUoQ?filecoin=true"
+curl "https://ipfs.blockfrost.io/api/v0/ipfs/pin/add/QmUCXMTcvuJpwHF3gABRr69ceQR2uEG2Fsik9CyWh8MUoQ?filecoin=true"
 \
   -X POST \
   -H "project_id: $PROJECT_ID" \
